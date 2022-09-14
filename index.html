@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Prueba SII - Add Card</title>
+</head>
+<body>
+    <header>
+        <h1>Prueba técnica SII</h1>
+    </header>
+
+    <main>
+        <div class="containerForm">
+            <form action="">
+                <div class="containerForm__card">
+                    <img class="containerForm__titleCard" src="./img/title-card.png" alt="Name bank">
+
+                    <img class="containerForm__chipCard" src="./img/chip.png" alt="Chip Card">
+
+                    <div class="containerForm__numbersCard">
+                        <p>world</p>
+                        <h3>5365 4411 4540 0954</h3>
+                    </div>
+
+                    <div class="containerForm__info">
+                        <div class="containerForm__dateName"> 
+                            <div class="containerForm__date">
+                                <p>VALID<br>THRU</p>
+                                <span>05/24</span>
+                            </div>
+                            
+                            <h4 class="containerForm__name">DONALD FLINCH CORTEZ</h4>
+                        </div>
+
+                        <div class="containerForm__logo">
+                            <img src="./img/logo-Mastercard.png" alt="Logo Mastercard">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="containerForm__inputs">
+                    <div class="containerForm__inputsTop">
+                        <div>
+                            <label for="numCard">Número de Tarjeta</label><br>
+                            <input type="number" name="numCard" id="numCard">
+                        </div>
+                        
+                        <div>
+                            <label for="dateExpCard">Fecha Vencimiento</label><br>
+                            <input type="date" name="dateExpCard" id="dateExpCard">
+                        </div>
+                    </div>
+                    
+                    <div class="containerForm__inputsBottom">
+                        <div>
+                            <label for="nameCard">Nombre Titular</label><br>
+                            <input type="text" name="nameCard" id="nameCard">
+                        </div>
+                        
+                        <div>
+                            <label for="cvv">CVV</label><br>
+                            <input type="number" name="cvv" id="cvv">
+                        </div>
+                    </div>
+                    
+                    <div class="containerForm__buttons">
+                        <button>Agregar Tarjeta</button>
+                        <input type="reset" value="Cancelar">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

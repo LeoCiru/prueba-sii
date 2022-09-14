@@ -1,0 +1,172 @@
+* 
+{ 
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body header h1
+{
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+body main
+{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+body main .containerForm
+{
+    width: 90%;
+}
+
+body main .containerForm form
+{
+    position: relative;
+    border: 2px solid #000;
+    padding: 150px 50px 50px 50px;
+    /* height: 600px; */
+}
+
+body main .containerForm form .containerForm__card
+{
+    position: absolute;
+    background-color: #101622;
+    width: 80%;
+    left: 125px;
+    padding: 50px;
+    border-radius: 10px;
+    color: #3d495c;
+    bottom: 385px;
+    /* display: none; */
+}
+
+body main .containerForm form .containerForm__card .containerForm__titleCard
+{
+    width: 100%;
+    vertical-align: top;
+}
+
+body main .containerForm form .containerForm__card .containerForm__chipCard
+{
+    width: 15%;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
+body main .containerForm form .containerForm__card .containerForm__numbersCard
+{
+    display: flex;
+    flex-direction: column;
+}
+
+body main .containerForm form .containerForm__card .containerForm__numbersCard p
+{
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    align-self: flex-end;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+body main .containerForm form .containerForm__card .containerForm__numbersCard h3
+{
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    align-self: center;
+    font-weight: 600;
+    font-size: 4.5rem;
+}
+
+body main .containerForm form .containerForm__card .containerForm__info
+{
+    display: flex;
+}
+
+body main .containerForm form .containerForm__card .containerForm__info .containerForm__dateName { width: 80%; }
+
+body main .containerForm form .containerForm__card .containerForm__info .containerForm__dateName .containerForm__date
+{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* flex-direction: column; */
+}
+
+body main .containerForm form .containerForm__card .containerForm__info .containerForm__dateName .containerForm__name 
+{
+    font-size: 3rem;
+}
+
+
+
+
+
+body main .containerForm form .containerForm__card .containerForm__info .containerForm__logo
+{
+    width: 20%;
+
+}
+
+body main .containerForm form .containerForm__card .containerForm__info .containerForm__logo img
+{
+    width: 100%;
+    vertical-align: top;
+}
+
+body main .containerForm form .containerForm__inputs
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+body main .containerForm form .containerForm__inputs :is(.containerForm__inputsTop, .containerForm__inputsBottom)
+{
+    display: flex;
+    column-gap: 50px;
+}
+
+body main .containerForm form .containerForm__inputs :is(.containerForm__inputsTop, .containerForm__inputsBottom) label
+{
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+body main .containerForm form .containerForm__inputs :is(.containerForm__inputsTop, .containerForm__inputsBottom) input
+{
+    padding: 15px 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    outline: none;
+    width: 350px;
+}
+
+body main .containerForm form .containerForm__buttons :is(button, input)
+{
+    background: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    font-weight: 600;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+body main .containerForm form .containerForm__buttons button
+{ 
+    background-color: #4741DE;
+    border: 2px solid #AFB2F1;
+}
