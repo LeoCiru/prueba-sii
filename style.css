@@ -7,6 +7,12 @@
     box-sizing: border-box;
 }
 
+@font-face
+{
+    font-family: 'Halter';
+    src: url('fonts/HALTER__.ttf') format('truetype');
+}
+
 body
 {
     display: flex;
@@ -19,6 +25,8 @@ body
 body header h1
 {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
+    margin: 430px auto;
+    font-size: 4rem;
 }
 
 body main
@@ -28,16 +36,17 @@ body main
     margin: auto;
 }
 
-body main .containerForm
+/* body main .containerForm
 {
-    width: 90%;
-}
+    max-width: 90%;
+} */
 
 body main .containerForm form
 {
     position: relative;
     border: 2px solid #000;
     padding: 150px 50px 50px 50px;
+    margin-bottom: 100px;
     /* height: 600px; */
 }
 
@@ -79,14 +88,16 @@ body main .containerForm form .containerForm__card .containerForm__numbersCard p
     align-self: flex-end;
     font-weight: 600;
     font-size: 1.6rem;
+    margin-right: 30px;
 }
 
 body main .containerForm form .containerForm__card .containerForm__numbersCard h3
 {
-    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-family: "Halter", Arial, Helvetica, sans-serif;
     align-self: center;
     font-weight: 600;
-    font-size: 4.5rem;
+    font-size: 3rem;
+    margin-bottom: 10px;
 }
 
 body main .containerForm form .containerForm__card .containerForm__info
@@ -101,12 +112,27 @@ body main .containerForm form .containerForm__card .containerForm__info .contain
     display: flex;
     align-items: center;
     justify-content: end;
-    /* flex-direction: column; */
+    margin-right: 70px;
+    margin-bottom: 20px;
+}
+
+body main .containerForm form .containerForm__card .containerForm__info .containerForm__dateName .containerForm__date p
+{
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-right: 15px;
+}
+body main .containerForm form .containerForm__card .containerForm__info .containerForm__dateName .containerForm__date span
+{
+    font-family: "Halter", Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 1.6rem;
 }
 
 body main .containerForm form .containerForm__card .containerForm__info .containerForm__dateName .containerForm__name 
 {
-    font-size: 3rem;
+    font-size: 2rem;
+    font-family: "Halter", Arial, Helvetica, sans-serif;
 }
 
 
@@ -161,7 +187,6 @@ body main .containerForm form .containerForm__buttons :is(button, input)
     border-radius: 15px;
     font-weight: 600;
     border: none;
-    color: #fff;
     cursor: pointer;
 }
 
@@ -169,4 +194,12 @@ body main .containerForm form .containerForm__buttons button
 { 
     background-color: #4741DE;
     border: 2px solid #AFB2F1;
+    color: #fff;
+}
+
+body main .containerForm form .containerForm__buttons input
+{ 
+    background-color: #9999a3;
+    border: 2px solid #AFB2F1;
+    color: rgb(98, 98, 98);
 }
