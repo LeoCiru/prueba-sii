@@ -88,7 +88,7 @@ body main .containerForm form .containerForm__card .containerForm__numbersCard p
     align-self: flex-end;
     font-weight: 600;
     font-size: 1.6rem;
-    margin-right: 30px;
+    margin-right: 60px;
 }
 
 body main .containerForm form .containerForm__card .containerForm__numbersCard h3
@@ -98,6 +98,7 @@ body main .containerForm form .containerForm__card .containerForm__numbersCard h
     font-weight: 600;
     font-size: 3rem;
     margin-bottom: 10px;
+    letter-spacing: 3px;
 }
 
 body main .containerForm form .containerForm__card .containerForm__info
@@ -174,13 +175,13 @@ body main .containerForm form .containerForm__inputs :is(.containerForm__inputsT
 body main .containerForm form .containerForm__inputs :is(.containerForm__inputsTop, .containerForm__inputsBottom) input
 {
     padding: 15px 10px;
-    border: 1px solid #000;
+    border: 1px solid #babac4;
     border-radius: 10px;
     outline: none;
     width: 350px;
 }
 
-body main .containerForm form .containerForm__buttons :is(button, input)
+body main .containerForm form .containerForm__buttons :is(submit, input)
 {
     background: none;
     padding: 10px 25px;
@@ -190,14 +191,14 @@ body main .containerForm form .containerForm__buttons :is(button, input)
     cursor: pointer;
 }
 
-body main .containerForm form .containerForm__buttons button
+body main .containerForm form .containerForm__buttons input[type="submit"]
 { 
     background-color: #4741DE;
     border: 2px solid #AFB2F1;
     color: #fff;
 }
 
-body main .containerForm form .containerForm__buttons input
+body main .containerForm form .containerForm__buttons input[type="reset"]
 { 
     background-color: #9999a3;
     border: 2px solid #AFB2F1;
